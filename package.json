@@ -12,7 +12,6 @@
     "deploy": "vite build && gh-pages -d dist"
 
   },
-  "homepage": "https://akamario.github.io/SearchFilm",
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.3",
     "@tailwindcss/vite": "^4.1.11",
