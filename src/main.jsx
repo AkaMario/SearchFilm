@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'; 
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
@@ -8,7 +8,7 @@ import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/SearchFilm"> {/* 👈 este es el cambio clave */}
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/movie/:id" element={<MoviePage />} />
